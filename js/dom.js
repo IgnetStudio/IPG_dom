@@ -58,7 +58,7 @@ var QB_button = document.querySelector("button");
 var QB_button_attr = QB_button.getAttribute("type");
 
 var QB_link = document.querySelector(".link-finish");
-QB_link.setAttribute("href", "index2.html");
+QB_link.setAttribute("href", "index.html");
 
 QB_button.setAttribute("disabled", true);
 QB_button.removeAttribute("disabled");
