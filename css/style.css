@@ -13,3 +13,12 @@ body {
 .QB_html_insert {
     color: black;
 }
+
+body header, body footer {
+    margin: 0;
+    text-align: left;
+}
+
+hr {
+    height: 5px;
+}
