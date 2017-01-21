@@ -1,5 +1,7 @@
 body {
     background: #fff;
+    margin: 0;
+    padding: 1em;
 }
 
 .red {
@@ -21,4 +23,119 @@ body header, body footer {
 
 hr {
     height: 5px;
+}
+
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 14px/18px Tahoma, Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+h2 {
+    margin: 15px;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 75%;
+    margin: 15px;
+    border-collapse: collapse;
+    display: table;
+}
+
+tbody {
+    color: #000040 !important;
+}
+
+table th,
+table td {
+    padding: 10px 20px !important;
+    text-align: left;
+}
+
+table th {
+    padding: 20px;
+    border-right: 1px #595959 solid;
+    background-color: #2F4F4F;
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+}
+
+table th:after {
+    content: "";
+    display: none;
+    width: 0;
+    height: 0;
+    margin-top: -5px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+
+table th.ipgAsc:after {
+    display: block;
+    border-style: solid;
+    border-width: 0 5px 10px 5px;
+    border-color: transparent transparent #E2E2E2 transparent;
+}
+
+table th.ipgDesc:after {
+    display: block;
+    border-style: solid;
+    border-width: 10px 5px 0 5px;
+    border-color: #E2E2E2 transparent transparent transparent;
+}
+
+table tr td {
+    background-color: #F5F5F5;
+}
+
+table tr:nth-child(even) td {
+    background-color: #DCDCDC;
+}
+
+#switcher {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+}
+
+#switcher li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 30px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#defaultButton {
+    background: #FFFACD;
+}
+
+#redButton {
+    background: #FFA07A;
+}
+
+#greenButton {
+    background: #98FB98;
+}
+
+#blueButton {
+    background: #87CEFA;
 }
