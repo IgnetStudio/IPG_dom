@@ -111,7 +111,7 @@ table tr:nth-child(even) td {
     padding: 0;
     overflow: hidden;
     position: fixed;
-    right: 0;
+    right: 15px;
 }
 
 #switcher li {
